@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas Anclas</title>
+    <!--ESTO ES CSS-->
+    <style>
+        /*ESTO ES CSS*/
+        /*Selector por id*/
+        #titulo{
+            margin: 1px;
+            background-color: black;
+            color: white;
+        }
+
+        /*Selector por nombre de etiqueta*/
+        h1, h2, h3, h4, h5, h6, p, table, img{
+            margin: 10px;
+            padding: 10px 20px 30px 40px;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            border: green 1px solid;
+            border-color: green;
+            border-width: 10px;
+            border-style: dashed;
+        }
+
+        .lista-ordenada-mayuscula{
+            list-style-type: upper-alpha;
+        }
+
+        .lista-ordenada-romana{
+            list-style-type: upper-roman;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 id="titulo">Tablas y Anclas</h1>
+    <!--Unordered List-->
+    <ul>
+        <!--List-->
+        <li>
+            <!--Anchor-->
+            <a href="index.html">
+                home
+            </a>
+        </li>
+        <li>
+            <a href="a_tablas_anclas.html"> 
+                Tablas y Anclas
+            </a>
+        </li>
+    </ul>
+
+    <ol class="lista-ordenada-mayuscula">
+        <li>
+            Lunes
+            <ol class="lista-ordenada-romana">
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+            </ol>
+        </li>
+        <li>Martes</li>
+        <li>Miercoles</li>
+    </ol>
+
+    <p>Links internos (#)</p>
+    <u>
+        <li>
+            <a href="#parrafo1">parrafo 1</a>
+        </li>
+        <li>
+            <a href="#parrafo2">parrafo 2</a>
+        </li>
+    </u>
+
+    <p id="parrafo1">Parrafo 1</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p id="parrafo2">Parrafo 2</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h2>Imagenes</h2>
+    <img src="assets/imagen1.png" alt="imagen1"> <!--Imagenes-->
+    <!--Tabla-->
+    <table>
+        <!--Fila de Tabla-->
+        <tr>
+            <!--Encabezados de Tabla-->
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+        </tr>
+        <tr>
+            <!--Detalles de Tabla-->
+            <td>Kevin</td>
+            <td>Peñafiel</td>
+            <td>21</td>
+        </tr>
+    </table>
+</body>
+</html>

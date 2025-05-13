@@ -1,8 +1,8 @@
 console.log("Hola Typescript");
 // var nombre = "algo"; // NO VAMOS A USAR VAR NUNCA
-var nombres = "Adrian";
-nombres = "A";
-nombres = 'C';
+var nombres = "Kevin";
+nombres = "K";
+nombres = 'P';
 // nombres = 1;
 var nombreTS = "";
 console.log(typeof nombres, "nombres");
@@ -28,3 +28,61 @@ console.log(typeof objetos, "objetos");
 var undefineds = undefined;
 var undefinedsTS = undefined;
 console.log(typeof undefineds, "undefineds");
+//Truty y Falsy
+var trutyFalsy;
+trutyFalsy = "";
+if (trutyFalsy) {
+    console.log("Truty");
+}
+else {
+    console.log("Falsy");
+}
+trutyFalsy = "a";
+if (trutyFalsy) {
+    console.log("Truty");
+}
+else {
+    console.log("Falsy");
+}
+trutyFalsy = -1;
+if (trutyFalsy) {
+    console.log("Truty");
+}
+else {
+    console.log("Falsy");
+}
+trutyFalsy = 0;
+if (trutyFalsy) {
+    console.log("Truty");
+}
+else {
+    console.log("Falsy");
+}
+trutyFalsy = 1;
+if (trutyFalsy) {
+    console.log("Truty");
+}
+else {
+    console.log("Falsy");
+}
+trutyFalsy = null;
+if (trutyFalsy) {
+    console.log("Truty");
+}
+else {
+    console.log("Falsy");
+}
+trutyFalsy = {};
+if (trutyFalsy) {
+    console.log("Truty");
+}
+else {
+    console.log("Falsy");
+}
+trutyFalsy = [];
+if (trutyFalsy) {
+    console.log("Truty");
+}
+else {
+    console.log("Falsy");
+}

@@ -31,3 +31,71 @@ console.log(typeof objetos, "objetos");
 let undefineds = undefined;
 let undefinedsTS: undefined = undefined;
 console.log(typeof undefineds, "undefineds");
+
+//Truty y Falsy
+
+let trutyFalsy : any;
+
+trutyFalsy = "";
+
+if(trutyFalsy){
+    console.log("Truty")
+} else {
+    console.log("Falsy")
+}
+
+trutyFalsy = "a";
+
+if(trutyFalsy){
+    console.log("Truty")
+} else {
+    console.log("Falsy")
+}
+
+trutyFalsy = -1;
+
+if(trutyFalsy){
+    console.log("Truty")
+} else {
+    console.log("Falsy")
+}
+
+trutyFalsy = 0;
+
+if(trutyFalsy){
+    console.log("Truty")
+} else {
+    console.log("Falsy")
+}
+
+trutyFalsy = 1;
+
+if(trutyFalsy){
+    console.log("Truty")
+} else {
+    console.log("Falsy")
+}
+
+trutyFalsy = null;
+
+if(trutyFalsy){
+    console.log("Truty")
+} else {
+    console.log("Falsy")
+}
+
+trutyFalsy = {};
+
+if(trutyFalsy){
+    console.log("Truty")
+} else {
+    console.log("Falsy")
+}
+
+trutyFalsy = [];
+
+if(trutyFalsy){
+    console.log("Truty")
+} else {
+    console.log("Falsy")
+}

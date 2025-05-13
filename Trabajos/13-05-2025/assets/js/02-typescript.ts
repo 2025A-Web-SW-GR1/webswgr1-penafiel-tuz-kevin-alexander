@@ -36,7 +36,7 @@ console.log(typeof undefineds, "undefineds");
 
 let trutyFalsy : any;
 
-trutyFalsy = "";
+trutyFalsy = "";    //Falsy
 
 if(trutyFalsy){
     console.log("Truty")
@@ -44,7 +44,7 @@ if(trutyFalsy){
     console.log("Falsy")
 }
 
-trutyFalsy = "a";
+trutyFalsy = "a";   //Truty
 
 if(trutyFalsy){
     console.log("Truty")
@@ -52,7 +52,7 @@ if(trutyFalsy){
     console.log("Falsy")
 }
 
-trutyFalsy = -1;
+trutyFalsy = -1;    //Truty
 
 if(trutyFalsy){
     console.log("Truty")
@@ -60,7 +60,7 @@ if(trutyFalsy){
     console.log("Falsy")
 }
 
-trutyFalsy = 0;
+trutyFalsy = 0;     //Falsy
 
 if(trutyFalsy){
     console.log("Truty")
@@ -68,7 +68,7 @@ if(trutyFalsy){
     console.log("Falsy")
 }
 
-trutyFalsy = 1;
+trutyFalsy = 1;     //Truty
 
 if(trutyFalsy){
     console.log("Truty")
@@ -76,7 +76,7 @@ if(trutyFalsy){
     console.log("Falsy")
 }
 
-trutyFalsy = null;
+trutyFalsy = null;  //Falsy
 
 if(trutyFalsy){
     console.log("Truty")
@@ -84,7 +84,7 @@ if(trutyFalsy){
     console.log("Falsy")
 }
 
-trutyFalsy = {};
+trutyFalsy = {};    //Truty
 
 if(trutyFalsy){
     console.log("Truty")
@@ -92,7 +92,7 @@ if(trutyFalsy){
     console.log("Falsy")
 }
 
-trutyFalsy = [];
+trutyFalsy = [];    //Truty
 
 if(trutyFalsy){
     console.log("Truty")

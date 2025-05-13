@@ -1,8 +1,8 @@
 console.log("Hola Typescript");
 // var nombre = "algo"; // NO VAMOS A USAR VAR NUNCA
-let nombres = "Adrian";
-nombres = "A";
-nombres = 'C';
+let nombres = "Kevin";
+nombres = "K";
+nombres = 'P';
 // nombres = 1;
 let nombreTS: string = "";
 console.log(typeof nombres, "nombres");
